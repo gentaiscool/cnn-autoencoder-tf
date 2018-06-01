@@ -36,3 +36,7 @@ Test AE
 ```
 python --task="evaluate_ae" --lr=0.1 --mm=0.2 --bsz=32
 ```
+
+### Note
+
+COMP5212 - Machine Learning Programming Assignment 2 in HKUST
