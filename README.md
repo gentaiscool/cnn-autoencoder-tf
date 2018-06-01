@@ -1,9 +1,19 @@
 # cnn-autoencoder-tf
-CNN and Autoencoder on MNIST
+Convolutional Neural Network and Autoencoder on EMNIST using Tensorflow (https://www.tensorflow.org/)
 
-I added more parameters (lr: learning rate, mm: moemntum, bsz: batch size) and task for cross validation
+In this project, we are going to evaluate the performance of convolutional neural network (CNN) and convolutional autoencoder (CAE) models by conducting empirical study on simple image data (EMNIST dataset) [1]. This dataset consists of 28x28 images of handwritten characters that belong to 47 classes.
 
-### TASK 1 - CNN
+[1] Gregory Cohen, Saeed Afshar, Jonathan Tapson, and Andre van Schaik. EMNIST: an
+extension of MNIST to handwritten letters. arXiv preprint arXiv:1702.05373, 2017.
+
+### Run the code
+
+#### Parameters
+- lr: initial learning rate
+- mm: momentum
+- bsz: batch size
+
+### CNN
 
 Train CNN
 ```
@@ -20,7 +30,7 @@ Test CNN
 python --task="test_cnn" --lr=0.1 --mm=0.2 --bsz=32
 ```
 
-### TASK 2 - Autoencoder
+#### Autoencoder
 
 Train AE
 ```
@@ -36,6 +46,9 @@ Test AE
 ```
 python --task="evaluate_ae" --lr=0.1 --mm=0.2 --bsz=32
 ```
+
+### Results
+<img src="fig/sample.png" height=350/>
 
 ### Note
 
