@@ -1,6 +1,6 @@
-# Convolutional Neural Network and Constractive Autoencoder on EMNIST
+# Convolutional Neural Network and Contractive Autoencoder on EMNIST
 
-In this project, we are going to evaluate the performance of convolutional neural network (CNN) and constractive autoencoder (CAE) models by conducting empirical study on simple image data (EMNIST dataset) [1]. This dataset consists of 28x28 images of handwritten characters that belong to 47 classes.
+In this project, we are going to evaluate the performance of convolutional neural network (CNN) and contractive autoencoder (CAE) models by conducting empirical study on simple image data (EMNIST dataset) [1]. This dataset consists of 28x28 images of handwritten characters that belong to 47 classes.
 
 [1] Gregory Cohen, Saeed Afshar, Jonathan Tapson, and Andre van Schaik. EMNIST: an
 extension of MNIST to handwritten letters. arXiv preprint arXiv:1702.05373, 2017.
